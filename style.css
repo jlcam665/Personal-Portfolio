@@ -1,18 +1,44 @@
 .titlebar{
-    border: 20px;
     background-color: cadetblue;
+    border: 5px solid transparent;
+    border-color: rgb(120, 180, 212);
+    /*Fix this: Title bar should be centred.*/
+    display: block;
+    align-items: center;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: crimson;
+    padding-right: 10px;
+}
+a :visited{
+    color: rgb(227, 117, 139)
 }
 /*Homepage Styles*/
 #homepage{
-    background-color: rgb(217, 174, 118);
+    background-color: rgb(251, 222, 183);
 }
 #studentID{
-    height: 400px;
-    width: auto;
-    align-items: center;
-    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: auto;
+    border: 5px solid transparent;
     border-radius: 25px;
     border-color: rgb(97, 147, 97);
 }
-
+#Hpage1{
+    background-color: cadetblue;
+    border-radius: 15px;
+    color: rgb(238, 219, 217);
+}
+#Hpage2{
+    background-color: rgb(160, 103, 95);
+    border-radius: 15px;
+    color: rgb(238, 219, 217);
+}
+#Hdiv{
+    padding: 20px;
+}
 /*Blog Styles*/
