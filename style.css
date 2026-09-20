@@ -39,7 +39,7 @@ p {
     color: rgb(238, 219, 217);
 }
 #studentID{
-    width: 35%;
+    width: 45%;
     height: auto;
     border: 5px solid transparent;
     border-radius: 25px;
@@ -62,5 +62,13 @@ p {
     background-color: rgb(160, 103, 95);
     border-radius: 15px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#Hdiv1{
+    margin: 10px;
+    flex: 0 0 auto;
+    width: 33%;
 }
 /*Blog Styles*/
