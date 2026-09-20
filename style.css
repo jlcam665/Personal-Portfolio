@@ -1,47 +1,66 @@
 * {
     font-family: monospace;
+    font-size: 100%;
 }
-.titlebar{
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+/*Navigation bar Styles*/
+.navbar{
     background-color: cadetblue;
-    border: 5px solid transparent;
-    border-color: rgb(120, 180, 212);
-    /*Fix this: Title bar should be centred.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li a{
     display: block;
-    align-items: center;
-}
-a{
-    font-weight: bold;
+    color: rgb(251, 222, 183);
+    padding: 15px 15px;
     text-decoration: none;
-    color: rgb(227, 205, 117);
-    padding-right: 10px;
 }
-a :visited{
-    color: rgb(117, 227, 144)
+.navbar li a:hover{
+    background-color: rgb(82, 202, 170);
 }
 /*Homepage Styles*/
 #homepage{
     background-color: rgb(251, 222, 183);
 }
+#homepage section{
+    color: rgb(238, 219, 217);
+}
 #studentID{
-    display: block;
-    margin: auto;
     width: 35%;
     height: auto;
     border: 5px solid transparent;
     border-radius: 25px;
     border-color: rgb(97, 147, 97);
 }
+
 #Hpage1{
     background-color: cadetblue;
     border-radius: 15px;
-    color: rgb(238, 219, 217);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Hpage1 div{
+    margin: 10px;
+    flex: 0 0 auto;
+    width: 50%;
 }
 #Hpage2{
     background-color: rgb(160, 103, 95);
     border-radius: 15px;
-    color: rgb(238, 219, 217);
-}
-#Hdiv{
-    padding: 20px;
+    padding: 5px;
 }
 /*Blog Styles*/
