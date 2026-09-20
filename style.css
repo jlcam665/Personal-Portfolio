@@ -57,7 +57,7 @@ p {
 #Hpage1 div{
     margin: 10px;
     flex: 0 0 auto;
-    width: 50%;
+    width: 45%;
 }
 
 #Hpage2{
@@ -71,6 +71,6 @@ p {
 #Hdiv1{
     margin: 10px;
     flex: 0 0 auto;
-    width: 33%;
+    width: 30%;
 }
 /*Blog Styles*/
