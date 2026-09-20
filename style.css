@@ -52,12 +52,14 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 #Hpage1 div{
     margin: 10px;
     flex: 0 0 auto;
     width: 50%;
 }
+
 #Hpage2{
     background-color: rgb(160, 103, 95);
     border-radius: 15px;
