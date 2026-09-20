@@ -1,3 +1,6 @@
+* {
+    font-family: monospace;
+}
 .titlebar{
     background-color: cadetblue;
     border: 5px solid transparent;
@@ -9,11 +12,11 @@
 a{
     font-weight: bold;
     text-decoration: none;
-    color: crimson;
+    color: rgb(227, 205, 117);
     padding-right: 10px;
 }
 a :visited{
-    color: rgb(227, 117, 139)
+    color: rgb(117, 227, 144)
 }
 /*Homepage Styles*/
 #homepage{
