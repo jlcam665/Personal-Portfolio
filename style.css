@@ -80,21 +80,21 @@ li{
     width: 30%;
 }
 /*Blog Styles*/
+#aboutmepage h1, #aboutmepage h2{
+    color: rgb(235, 204, 150);
+}
 #Bpage1 div{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(160, 103, 95);
 }
 #amprt1{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
     background-color: indianred;
 }
 #amprt2{
-    margin: 10px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -111,21 +111,18 @@ li{
     text-decoration: none;
 }
 #amprt3{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
     background-color: rgb(92, 147, 205);
 }
 #amprt4{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
     background-color: rgb(210, 170, 70);
 }
 #amprt5{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
@@ -133,14 +130,12 @@ li{
     background-color: rgb(92, 147, 205);
 }
 #amprt6{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
     background-color: rgb(210, 170, 70);
 }
 #amprt7{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
