@@ -37,12 +37,13 @@ a{
     background-color: rgb(82, 202, 170);
 }
 /*Homepage Styles*/
-#homepage,
 #indexpage,
-#aboutmepage{
+#blogpage,
+#aboutmepage,
+#personaldevelopmentpage{
     background-color: rgb(255, 233, 205);
 }
-#homepage section,
+#blogpage section,
 #indexpage section,
 #aboutmepage section{
     color: rgb(238, 219, 217);
