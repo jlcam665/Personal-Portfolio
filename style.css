@@ -17,6 +17,9 @@ p{
 li{
     font-size: 15px;
 }
+a{
+    color: rgb(243, 180, 70);
+}
 /*Navigation bar Styles*/
 .navbar{
     background-color: cadetblue;
@@ -52,7 +55,7 @@ li{
     border-color: rgb(97, 147, 97);
 }
 
-#Hpage1{
+.Hpage1{
     background-color: cadetblue;
     border-radius: 15px;
     display: flex;
@@ -60,13 +63,16 @@ li{
     align-items: center;
     flex-wrap: wrap;
 }
-#Hpage1 div{
+.Hpage1 div{
     margin: 10px;
     flex: 0 0 auto;
     width: 45%;
 }
+#H1div1{
+    padding: 20px;
+}
 
-#Hpage2{
+.Hpage2{
     background-color: rgb(160, 103, 95);
     border-radius: 15px;
     padding: 5px;
@@ -74,12 +80,12 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
 }
-#Hdiv1{
+#H2div{
     margin: 10px;
     flex: 0 0 auto;
     width: 30%;
 }
-#Hpage3{
+.Hpage3{
     background-color: cadetblue;
     border-radius: 15px;
     padding: 10px;
