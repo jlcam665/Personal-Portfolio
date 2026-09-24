@@ -32,10 +32,14 @@ p {
     background-color: rgb(82, 202, 170);
 }
 /*Homepage Styles*/
-#homepage{
-    background-color: rgb(251, 222, 183);
+#homepage,
+#indexpage,
+#aboutmepage{
+    background-color: rgb(255, 233, 205);
 }
-#homepage section{
+#homepage section,
+#indexpage section,
+#aboutmepage section{
     color: rgb(238, 219, 217);
 }
 #studentID{
@@ -74,3 +78,58 @@ p {
     width: 30%;
 }
 /*Blog Styles*/
+#Bpage1 div{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(160, 103, 95);
+}
+#amprt1{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt2{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt3{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt4{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt5{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt6{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
+#amprt7{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(251, 222, 183);
+    background-color: indianred;
+}
