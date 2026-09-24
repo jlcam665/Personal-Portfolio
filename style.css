@@ -79,9 +79,18 @@ li{
     flex: 0 0 auto;
     width: 30%;
 }
+#Hpage3{
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 10px;
+}
 /*Blog Styles*/
-#aboutmepage h1, #aboutmepage h2{
-    color: rgb(235, 204, 150);
+#aboutmepage h1{
+    color: rgb(212, 176, 60);
+}
+#aboutmepage h2{
+    color: rgb(212, 176, 60);
+    background-color: cornsilk;
 }
 #Bpage1 div{
     padding: 10px;
