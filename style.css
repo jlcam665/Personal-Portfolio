@@ -22,7 +22,7 @@ a{
 }
 /*Navigation bar Styles*/
 .navbar{
-    background-color: cadetblue;
+    background-color: rgb(95, 158, 160);
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -41,23 +41,23 @@ a{
 #blogpage,
 #aboutmepage,
 #personaldevelopmentpage{
-    background-color: #ffe9cd;
+    background-color: rgb(255, 233, 205);
 }
 #blogpage section,
 #indexpage section,
 #aboutmepage section{
-    color: rgb(238, 219, 217);
+    color: #eedbd9;
 }
 #studentID{
     width: 45%;
     height: auto;
     border: 5px solid transparent;
     border-radius: 25px;
-    border-color: #619361;
+    border-color: rgb(97, 147, 97);
 }
 
 .Hpage1{
-    background-color: cadetblue;
+    background-color: rgb(95, 158, 160);
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@ a{
 }
 
 .Hpage2{
-    background-color: #a0675f;
+    background-color: rgb(160, 103, 95);
     border-radius: 15px;
     padding: 5px;
     display: flex;
@@ -97,18 +97,13 @@ a{
 }
 #aboutmepage h2{
     color: #d4b03c;
-    background-color: cornsilk;
-}
-#Bpage1 div{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(160, 103, 95);
+    background-color: #fff8dc;
 }
 #amprt1{
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
-    background-color: #cd5c5c;
+    background-color: rgb(205, 92, 92);
 }
 #amprt2{
     padding: 10px;
@@ -136,7 +131,7 @@ a{
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
-    background-color: rgb(210, 170, 70);
+    background-color: #d2aa46;
 }
 #amprt5{
     padding: 10px;
@@ -156,4 +151,10 @@ a{
     border-radius: 5px;
     color: rgb(251, 222, 183);
     background-color: rgb(92, 147, 205);
+}
+/*Blog Styles*/
+#Bpage1 div{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a0675f;
 }
