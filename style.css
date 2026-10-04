@@ -53,7 +53,7 @@ a{
     height: auto;
     border: 5px solid transparent;
     border-radius: 25px;
-    border-color: rgb(97, 147, 97);
+    border-color: #619361;
 }
 
 .Hpage1{
@@ -91,12 +91,12 @@ a{
     border-radius: 15px;
     padding: 10px;
 }
-/*Blog Styles*/
+/*About Me Styles*/
 #aboutmepage h1{
     color: rgb(212, 176, 60);
 }
 #aboutmepage h2{
-    color: rgb(212, 176, 60);
+    color: #d4b03c;
     background-color: cornsilk;
 }
 #Bpage1 div{
@@ -108,7 +108,7 @@ a{
     padding: 10px;
     border-radius: 5px;
     color: rgb(251, 222, 183);
-    background-color: indianred;
+    background-color: #cd5c5c;
 }
 #amprt2{
     padding: 10px;
@@ -116,7 +116,7 @@ a{
     flex-direction: row;
     border-radius: 5px;
     color: rgb(251, 222, 183);
-    background-color: rgb(92, 147, 205);
+    background-color: #5c93cd;
 }
 #amprt2 #table{
     display: flex;
